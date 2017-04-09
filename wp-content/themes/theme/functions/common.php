@@ -271,3 +271,8 @@
             echo '<meta name="description" content="' . get_meta_description() . '" />' . "\n";
         }
     }
+
+    //set noimage
+    function setNoimgae($width, $height){
+        echo '<img src="'.NO_IMAGE.'" width="'.$width.'" height="'.$height.'" alt="No image">';
+    }

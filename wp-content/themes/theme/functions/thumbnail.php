@@ -5,17 +5,4 @@
  * @author Kobayashi
  */
 add_theme_support( 'post-thumbnails' );
-add_image_size( 'single-eyecatch', 1310, 768, true );
-
-//画像があればそのまま、なければNOIMAGEを出力
-function setThumb($size){
-    if ($size === 'single-eyecatch') {
-
-
-        if (has_post_thumbnail()) {
-            return the_post_thumbnail($size);
-        } else {
-            echo "<img src=".NO_IMAGE." alt=''>";
-        }
-    }
-}
+add_image_size( 'single-eyecatch', SINGLE_EYE_CATCH_W, SINGLE_EYE_CATCH_H, true );

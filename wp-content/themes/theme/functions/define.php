@@ -34,3 +34,7 @@ define('NAV_2_TEXT', 'BLOG');
 
 //No image
 define('NO_IMAGE', TEMPLATE_URL.'/assets/images/common/noimage.png');
+
+//Thumbnail size
+define('SINGLE_EYE_CATCH_W', 1300);
+define('SINGLE_EYE_CATCH_H', 768);

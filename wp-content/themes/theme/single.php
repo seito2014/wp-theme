@@ -22,6 +22,8 @@
                     </time>
                     <?php if (has_post_thumbnail()){
                         the_post_thumbnail('single-eyecatch');
+                    } else {
+                        setNoimgae(SINGLE_EYE_CATCH_W, SINGLE_EYE_CATCH_H);
                     } ?>
                 </div>
 
