@@ -1,0 +1,7 @@
+<?php
+/**
+ * archive
+ *
+ * @package WordPress
+ */
+?>

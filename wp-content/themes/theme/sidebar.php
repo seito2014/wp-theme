@@ -1,0 +1,7 @@
+<?php
+/**
+ * sidebar
+ *
+ * @package WordPress
+ */
+?>
