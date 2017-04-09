@@ -18,10 +18,6 @@ define('TEMPLATE_URL', get_stylesheet_directory_uri());
 // ルートパス
 define('HOME_URL', get_home_url());
 
-//Page id
-define('PAGE_COMPANY', '1');
-define('PAGE_ABOUT', '2');
-
 //URL
 define('NAV_0_ID', 'company');
 define('NAV_0_TEXT', 'COMPANY');

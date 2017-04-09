@@ -1,4 +1,4 @@
-<!--footer ここから-->
+<!--header ここから-->
 <header class="l-header">
 
     <div class="l-header-logo">
@@ -10,4 +10,4 @@
     <?php importTemplate('module/_nav'); ?>
 
 </header>
-<!--footer ここまで-->
+<!--header ここまで-->

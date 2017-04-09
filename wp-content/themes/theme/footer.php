@@ -21,11 +21,11 @@
     <script src="<?php echo TEMPLATE_URL; ?>/assets/js/blog.js"></script>
 <?php endif; ?>
 
-<?php if (is_page(PAGE_ABOUT)): ?>
+<?php if (is_page(NAV_0_ID)): ?>
 <script src="<?php echo TEMPLATE_URL; ?>/assets/js/about.js"></script>
 <?php endif; ?>
 
-<?php if (is_page(PAGE_COMPANY)): ?>
+<?php if (is_page(NAV_1_ID)): ?>
 <script src="<?php echo TEMPLATE_URL; ?>/assets/js/company.js"></script>
 <?php endif; ?>
 <!--javascript ここまで-->
